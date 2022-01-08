@@ -1,27 +1,52 @@
 body{
     font-family: 'Alice', serif;
     margin: 0 auto;
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
 }
 .flexibility{
     display: flex;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 .half-devide{
-    width: 100%;
-    padding-top: 10%;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
 .half-devide img{
     width: 100%;
-    padding: 10%;
+    padding-top: 15%;
 }
 .heading-color{
     color: rgb(204, 117, 18);
 }
 .heading-border{
     border-left: 5px solid;
+    padding-left: 10px;
+    line-height: 50px;
+    border-color: rgb(15, 208, 241);
+}
+.button{
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+#mid-head{
+    color: rgb(15, 208, 241);
+}
+.heading-center{
+    text-align: center;
 }
 footer{
     background-color: black;
     color: blanchedalmond;
+    text-align: center;
+    padding: 10px;
 }
