@@ -2,6 +2,7 @@ body{
     font-family: 'Alice', serif;
     margin: 0 auto;
     font-size: 20px;
+    margin-top: 5%;
 }
 h1{
     font-size: 40px;
@@ -16,7 +17,6 @@ h1{
     width: 50%;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 5%;
 }
 .half-devide img{
     width: 100%;
@@ -38,11 +38,47 @@ h1{
     padding: 10px 50px;
     border-radius: 5px;
 }
-#mid-head{
+.mid-head{
     color: rgb(15, 208, 241);
 }
 .heading-center{
     text-align: center;
+}
+.mission-border{
+    margin-top: 2%;
+    margin-left: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.mission-border img{
+    width: 40%;
+}
+#mis-color{
+    background-color: rgba(73, 124, 21, 0.459);
+}
+#vis-color{
+    background-color: rgba(19, 138, 250, 0.384);
+}
+#goal-color{
+    background-color: rgba(195, 109, 230, 0.384);
+}
+#develop-pad{
+    padding-top: 7%;
+    padding-left: 2%;
+}
+#community-pad{
+    padding-top: 14%;
+    padding-right: 2%;
+}
+#choose-border{
+    font-size: 20px;
+    line-height: 40px;
+}
+#last-padding{
+    padding-top: 5%;
+    padding-left: 10%;
 }
 footer{
     background-color: black;
